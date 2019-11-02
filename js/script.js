@@ -1,7 +1,8 @@
 $(document).ready(function(){
 
 	$('#slides').superslides({
-		animation:'fade'
+		animation:'fade',
+		play:5000
 	});
 
 });
