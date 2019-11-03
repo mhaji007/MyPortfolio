@@ -6,4 +6,11 @@ $(document).ready(function(){
 		pagination:false
 	});
 
+	var typed = new Typed(".typed", {
+		strings: ["Software Engineer.", "Web Developer.", "UI/UX Designer."],
+		typeSpeed:70,
+		loop:true,
+		startDelay:995,
+		showCursor: false
+	});
 });
