@@ -74,6 +74,7 @@ body {
 
 .skill {
 	text-align: center;
+	margin-left: 10px;
 }
 
 .chart {
@@ -92,12 +93,12 @@ body {
 
 }
 
-.percent {
-	color: #fff;
+.chart .percent {
+	color: #000;
 	line-height: 152px;
 	display: inline-block;
 	font-size: 35px;
-	margin-left: 10px;
+
 
 }
 
