@@ -68,7 +68,7 @@ body {
 }
 
 .skillsSection {
-  background-color: #2C3A47;
+  background-color: #444;
   color: #fff;
 }
 
@@ -151,4 +151,16 @@ body {
 	font-size: 13px;
 	font-weight: 600px;
 	margin: 0;
+}
+
+.squareIcon {
+	position: absolute;
+	left: 50%;
+	top:-30px;
+	width: 40%;
+	height: 60px;
+	font-size: 45px;
+	margin-left: -20%;
+	color: #444;
+
 }
