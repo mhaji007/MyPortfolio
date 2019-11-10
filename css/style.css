@@ -199,3 +199,16 @@ body {
 	border-color: #444;
 	color: #fff;
 }
+
+.filter {
+	text-align: center;
+	width: 100%;
+
+}
+
+.section .heading {
+	text-align: center;
+	padding-bottom: 40px;
+	width: 100%;
+	
+}
