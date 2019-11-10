@@ -7,7 +7,7 @@ $(document).ready(function() {
 	});
 
 	var typed = new Typed(".typed", {
-		strings: ["Software Engineer.", "Web Developer.", "Student."],
+		strings: ["Software Engineer.", "Web Developer.", "UI/UX Designer."],
 		typeSpeed: 70,
 		loop: true,
 		startDelay: 1000,
@@ -86,7 +86,28 @@ $(document).ready(function() {
 			easing: 'linear',
 			queue: false
 		}
-	})
+	});
+
+	$("#filters a").click(function() {
+		$("#filters.current").removeClass("current");
+		$(this).addClass("current");
+
+		var selector = $(this).attr("data-filter");
+
+		$(".items").isotope({
+		filter: selector,
+		animationOptions: {
+			duration: 1500,
+			easing: 'linear',
+			queue: false
+		}
+
+	});
+
+	return false;
+
+
+ })
 
 
 });
