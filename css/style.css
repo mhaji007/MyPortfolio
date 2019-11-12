@@ -317,7 +317,7 @@ body {
 }
 
 .copyrightSection {
-	background-color: #444;
+	background-color: #aaa9ad;
 	color: #fff;
 	padding: 30px 5px;
 }
@@ -325,3 +325,29 @@ body {
 .copyrightSection p {
 	margin:0;
 }
+
+#navigation {
+	background-color: #444;
+	padding: 20px 10px;
+	z-index: 100;
+}
+
+#navigation li {
+	padding: 0 10px;
+
+}
+
+#navigation li a {
+	color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+	color: #fff;
+}
+
+.navbar-toggler-icon {
+	background: url(../img/icons/menu.png);
+	background-size: 100%;
+}
+
