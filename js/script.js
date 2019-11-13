@@ -1,3 +1,10 @@
+$(window).on("load", function(){
+	$(".loader .inner").fadeOut(500, function(){
+		$(".loader").fadeOut(750);
+	});
+})
+
+
 $(document).ready(function() {
 
 	$('#slides').superslides({
@@ -117,7 +124,7 @@ $(document).ready(function() {
 		$("html, body").animate({ scrollTop: targetPosition - 50 }, "slow");
 
 	});
-	
+
 
 	const nav = $("#navigation");
 	const navTop = nav.offset().top;
